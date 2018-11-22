@@ -24,6 +24,12 @@ object TuplesTest extends App {
     } 
   })
   /**
+   * for遍历
+   * */
+  for((a,b)<-tups){
+    println((a,b))
+  }
+  /**
    * 总结:
    * 类似switch的语法，只是操作换成了对象，而且每个case都自动加了break
    * 
