@@ -1,5 +1,6 @@
 package com.creating.www.clazz
 
+import java.math._
 object ClazzTest {
   class A(){
     override def toString():String={
@@ -43,5 +44,6 @@ object ClazzTest {
     d.x=10086
     d.y=10087
     println(d)
+    //println(Math.sqrt(4))
   }
 }
