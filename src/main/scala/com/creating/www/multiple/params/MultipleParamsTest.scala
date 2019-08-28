@@ -7,6 +7,8 @@ object MultipleParamsTest extends App {
   println(list.foldRight(0)((m,n)=>m+n))
   println(list.foldLeft(0)(_+_))
   println(list.foldRight(0)(_+_))
-  
+  println(list.foldLeft(1)(_+_))
+  println(list.foldLeft(0)(_-_))
+  println(list.foldRight(0)(_-_))
   //=>自定义和传函数的方式等后面再补全
 }
