@@ -4,7 +4,7 @@ import scala.collection.mutable.ArrayBuffer
 object TraitTest {
   trait A{
     def operator:Boolean
-    //def operator():Unit 不可以这样再定义
+    //def operator():Unit 涓嶅彲浠ヨ繖鏍峰啀瀹氫箟
     def otherOperator():Unit
   }
   class INSTANCE1(name:String) extends A{
@@ -14,7 +14,7 @@ object TraitTest {
       println(name)
     }
   }
-    class INSTANCE2(name:String) extends A{
+  class INSTANCE2(name:String) extends A{
     private var count=0
     override def operator=count<10
     override def otherOperator()={
