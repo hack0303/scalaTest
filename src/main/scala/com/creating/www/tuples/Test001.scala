@@ -9,7 +9,7 @@ object Test001 extends App {
   }
   lst.foreach{
     case (1,x,y)=>println(1,x,y)
-    case _=>print("²»Æ¥Åä")
+    case _=>print("ä¸åŒ¹é…")
     
   }
 }

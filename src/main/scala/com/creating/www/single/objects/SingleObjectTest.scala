@@ -22,7 +22,7 @@ object SingleObjectTest extends App {
   A("haha")._info()
   A("haha").info_copy("haha_copy")
   /**
-   * ½á¹û
+   * ç»“æžœ
    *[INFO] hehe
    *haha
    *[INFO] haha

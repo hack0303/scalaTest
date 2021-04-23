@@ -20,16 +20,16 @@ object PatternMatchingTest extends App {
     }
   }
   println(matchTest(x))
-  //=>ÒÔÉÏÊÇ»ù±¾ÓÃ·¨
-   //val animal=Dog("¹·µ°",3)£¬´íÎó£¬ÐèÒªÖ¸¶¨·º»¯
-  val animal:Animal=Dog("¹·µ°",3)
+  //=>ä»¥ä¸Šæ˜¯åŸºæœ¬ç”¨æ³•
+   //val animal=Dog("ç‹—è›‹",3)ï¼Œé”™è¯¯ï¼Œéœ€è¦æŒ‡å®šæ³›åŒ–
+  val animal:Animal=Dog("ç‹—è›‹",3)
   animal match{
-    case Dog(name,_) if name=="¹·µ°"=>println(s"ÕâÊÇ${name}")
+    case Dog(name,_) if name=="ç‹—è›‹"=>println(s"è¿™æ˜¯${name}")
     case Pig(name,age) => println("${name},${age}")
     case Cat(_,age) => println("cat,age=${age}")
     case other => println("not right object type")
   }
-  val animal02:Animal=Dog("´ó¹·µ°",2)
+  val animal02:Animal=Dog("å¤§ç‹—è›‹",2)
   animal02 match{
     case a:Dog =>println(s"${a.name}")
     case b:Pig => println("Pig")

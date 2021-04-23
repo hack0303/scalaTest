@@ -2,7 +2,7 @@ package com.creating.www.COMPREHENSIONS
 
 /**
  * yield syntax sugar 
- * ÔÚ for ÖĞyield ÓÃÀ´°ÑºóÃæµÄÔªËØ×°µ½Ò»¸öfor È«¾ÖÄ¬ÈÏµÄlistÖĞ 
+ * åœ¨ for ä¸­yield ç”¨æ¥æŠŠåé¢çš„å…ƒç´ è£…åˆ°ä¸€ä¸ªfor å…¨å±€é»˜è®¤çš„listä¸­ 
  * */
 object Test extends App {
   case class User(name:String,age:Int){

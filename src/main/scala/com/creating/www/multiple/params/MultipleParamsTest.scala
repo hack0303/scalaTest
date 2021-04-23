@@ -10,5 +10,5 @@ object MultipleParamsTest extends App {
   println(list.foldLeft(1)(_+_))
   println(list.foldLeft(0)(_-_))
   println(list.foldRight(0)(_-_))
-  //=>自定义和传函数的方式等后面再补全
+  //=>鑷畾涔夊拰浼犲嚱鏁扮殑鏂瑰紡绛夊悗闈㈠啀琛ュ叏
 }

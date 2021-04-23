@@ -18,7 +18,7 @@ object MixinsTest extends App {
   }
   var o=new D("d")
   o.bSay()
-  //<== ³éÏóÊµÏÖ¿ÉÒÔÊµÊ±µÄ¸ü»»Îª³éÏóÊµÏÖÏÂµÄ½Ó¿Ú×ÓÀà¡£
+  //<== æŠ½è±¡å®žçŽ°å¯ä»¥å®žæ—¶çš„æ›´æ¢ä¸ºæŠ½è±¡å®žçŽ°ä¸‹çš„æŽ¥å£å­ç±»ã€‚
   abstract class Ab{
     type T
     def say():T
@@ -36,8 +36,8 @@ object MixinsTest extends App {
     }
   }
   println(new InstanceAb_int().say(),new InstanceAb_string().say())
-  //<== Ïàµ±ÓÚJAVAÖÐµÄÄ£°å·½·¨
-  /*?ÒÉÎÊµÄ£¬Ö®ºó²¹ÆðÀ´
+  //<== ç›¸å½“äºŽJAVAä¸­çš„æ¨¡æ¿æ–¹æ³•
+  /*?ç–‘é—®çš„ï¼Œä¹‹åŽè¡¥èµ·æ¥
    * trait RichIterator extends AbsIterator {
   def foreach(f: T => Unit): Unit = while (hasNext) f(next())
 }?*/

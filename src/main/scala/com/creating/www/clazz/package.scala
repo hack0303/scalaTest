@@ -5,10 +5,10 @@ package object clazz {
    * match x {
    * case ?=>?
    * }
-   * Æ¥Åä»ù±¾ÀàÐÍ
-   * Æ¥ÅäÀàÄ£Ê½
-   * Æ¥ÅäÀàÐÍ
-   * Æ¥ÅäÀàÐÍ(±¾ÎÄ¼þÄÚÉùÃ÷µÄÀà,¹Ø¼ü×Ö:sealed)
+   * åŒ¹é…åŸºæœ¬ç±»åž‹
+   * åŒ¹é…ç±»æ¨¡å¼
+   * åŒ¹é…ç±»åž‹
+   * åŒ¹é…ç±»åž‹(æœ¬æ–‡ä»¶å†…å£°æ˜Žçš„ç±»,å…³é”®å­—:sealed)
    * 
    * */
 }

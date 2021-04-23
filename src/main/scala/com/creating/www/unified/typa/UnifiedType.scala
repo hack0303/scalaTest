@@ -17,8 +17,8 @@ object UnifiedType {
     val z:Float=1.2f
     val c:Boolean=true
     var ch:Char='a'
-   // var c_value:Int=c ²»¿ÉÒÔ
+   // var c_value:Int=c ä¸å¯ä»¥
     var ch_value:Int=ch
-   // var toFloat:Float=y ²»¿ÉÒÔ
+   // var toFloat:Float=y ä¸å¯ä»¥
   }
 }

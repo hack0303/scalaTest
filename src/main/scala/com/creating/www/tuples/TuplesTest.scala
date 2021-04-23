@@ -20,18 +20,18 @@ object TuplesTest extends App {
       case p if(p._2=="b")=>{
         println(tuple)
       }
-      case _ =>println("_")//默认情况，即都不符合情况
+      case _ =>println("_")//榛樿鎯呭喌锛屽嵆閮戒笉绗﹀悎鎯呭喌
     } 
   })
   /**
-   * for遍历
+   * for閬嶅巻
    * */
   for((a,b)<-tups){
     println((a,b))
   }
   /**
-   * 总结:
-   * 类似switch的语法，只是操作换成了对象，而且每个case都自动加了break
+   * 鎬荤粨:
+   * 绫讳技switch鐨勮娉曪紝鍙槸鎿嶄綔鎹㈡垚浜嗗璞★紝鑰屼笖姣忎釜case閮借嚜鍔ㄥ姞浜哹reak
    * 
    * */
   

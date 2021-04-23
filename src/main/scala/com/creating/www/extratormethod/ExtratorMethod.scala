@@ -9,7 +9,7 @@ object ExtratorMethod extends App {
   }
   A("hehe").print()
   /**
-   * Ê¾ÀıÅÜ²»Í¨£¬´ı½â¾ö
+   * ç¤ºä¾‹è·‘ä¸é€šï¼Œå¾…è§£å†³
    * */
   object Tester{
     def print=println("hehe")
